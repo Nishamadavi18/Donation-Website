@@ -1,0 +1,825 @@
+body
+{
+    background-color: black;
+}
+/*------------------------------------------------NAVBAR----------------------------------------*/
+.nav
+{
+    background-color:  black;
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.856);
+}
+.nav_top
+{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.logo
+{
+    float:left;
+    width: 50%;
+}
+.logo img
+{
+    padding: 8px;
+    width:30%;
+    margin-left:10%;
+}
+.nav_side
+{
+    float:right;
+    width:45%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.nav_side a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left:5px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.nav_side a:hover
+{
+    color: rgb(79, 255, 88);
+    transition: all 1s ease;
+}
+
+/*------------------------------------------------MAIN----------------------------------------*/
+.main
+{
+    background-image: url("images/back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 130vh;
+}
+.main .main_content
+{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:40%;
+}
+.main .main_content h2
+{
+    color: white;
+    font-size: 350%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+.main .main_content h2 span
+{
+    font-size:50%;
+    opacity: 0.9;
+    font-weight: 400;
+    line-height: 50px;
+}
+.main .main_content .btn
+{
+    margin-top:10%;
+    text-align: left;
+    width:0%;
+}
+.main .main_content .btn a
+{
+    text-decoration: none;
+    font-size: large;
+    margin:44%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.856);
+    color:white;
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.856);
+    transition: 0.5s;
+}
+.main .main_content .btn a:hover
+{
+    background-color: rgba(255, 255, 255, 0.527);
+    color: rgb(37, 0, 19);
+    border: none;
+    border: 4px solid rgb(37, 0, 19);
+    transition:0.5s;
+}
+/*------------------------------------------------SIDE----------------------------------------*/
+.side 
+{
+    background-color: rgba(0, 0, 0, 0.966);
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.side .left
+{
+    width:50%;
+    float: left;
+}
+.side .left img
+{
+    float: left;
+    width:100%;
+}
+.side .right
+{
+    background-color: rgba(0, 0, 0, 0.966);
+    width:50%;
+    float:right;
+}
+.side .right h2
+{
+    margin-top: 8%;
+    font-size: 250%;
+}
+.side .right p
+{
+    margin-left: 15%;
+    width: 70%;
+    font-size: 147%;
+    margin-top: 6%;
+}
+.side .right .side_btn
+{
+    margin-top:4%;
+}
+.side .right .side_btn a
+{
+    text-decoration: none;
+    font-size: large;
+    margin:32%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 4px double whitesmoke;
+    transition: 0.5s;
+}
+.side .right .side_btn a:hover
+{
+    background-color: rgb(79, 255, 88);
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid green;
+    transition:0.5s;
+}
+
+/*--------------------------------------------HOW WE HELP----------------------------------------*/
+.product
+{
+    float:left;
+    background-image: url("images/poor.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.product h2
+{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+}
+.product .product_container
+{
+    display:flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item
+{
+    width:33%;
+    margin: 10px;
+    height: 10%;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 50%;
+}
+.product .product_container .item:hover
+{
+    box-shadow:0px 3px 65px 0px rgb(255, 189, 165);
+}
+.product .product_container .item .item_img
+{
+    width:60%;
+    height: 20%;
+    overflow:hidden;
+    margin-left: 23%;
+}
+.product .product_container .item .item_img img
+{
+    width:100%;
+    height: 10%;
+}
+.product .product_container .item .item_content
+{
+    text-align: center;
+}
+.product .product_container .item .item_content h3
+{
+    font-size: 25px;
+    line-height: 2px;
+    color: rgb(79, 255, 88);
+    font-weight: bolder;
+}
+.product .product_container .item .item_content p
+{
+    font-size: 20px;
+    line-height: 25px;
+    width: 80%;
+    text-align: center;
+    padding-left: 20%;
+}
+/*--------------------------------------------FOOTER----------------------------------------*/
+footer
+{
+    background-color: black;
+    padding: 70px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+
+footer .aimg
+{
+    margin-top:21%;
+}
+footer .pages
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer .pages p
+{
+    padding-top: 5%;
+    text-align: left;
+    color:white;
+    width:90%;
+    padding-left:12%;
+}
+footer .pages a
+{
+    text-decoration: none;
+    margin:10px;
+    color:red ;
+    font-size: 30px;
+}
+footer .pages a:hover
+{
+    color: white ;
+}
+footer .doc
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+   
+}
+footer .doc h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 100px;
+}
+footer .doc a
+{
+    display: block;
+    text-decoration: none;
+    margin:10px;
+    color: lightblue;
+    font-size: 25px;
+}
+footer .doc a:hover
+{
+    color:white;
+}
+footer .social
+{
+    width:25%;
+    text-align: center;
+    display: inline-block;
+}
+footer .social h3
+{
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 150px;
+}
+footer .contact
+{
+    width:20%;
+    text-align: center;
+    text-align: left;
+}
+footer .contact h3
+{
+    color:  white;
+    font-size: 24px;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 370px;
+}
+footer .social p
+{
+    padding-top: 5%;
+    text-align: left;
+    color: lightblue;   ;
+    width:90%;
+    padding-left:12%;
+    font-size: large;
+    margin-bottom: 18%;
+    text-align: center;
+}
+.side .right .side_btn
+{
+    margin-top:4%;
+}
+footer .side_btn a
+{
+    text-decoration: none;
+    font-size: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px double whitesmoke;
+    transition: 0.5s;
+}
+footer .side_btn a:hover
+{
+    background-color: pink;
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid  lightseagreen;
+    transition:0.5s;
+}
+footer .contact
+{
+    display: inline-block;
+}
+footer .contact a
+{
+    
+    font-size: 30px;        
+    text-decoration: none;
+    color: lightblue;
+    margin:10px;
+    
+}
+footer .contact a:hover
+{
+    
+    text-decoration: none;
+    margin:10px;
+    color: white  ;
+    font-size: 30px;
+}
+footer p
+{
+    color:rgba(247, 178, 217, 0.726);
+    font-size: 110%;
+    text-align: center;
+
+}
+/*------------------------------------------------MAIN_ABOUT----------------------------------------*/
+.main_about
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url("images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    margin-top:-1.5%;
+}
+.main_about .main_content_about h2
+{
+    color: white;
+    font-size: 390%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding:20%;
+}
+.product_about
+{
+    float:left;
+    background-image: url("images/about_back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+/*--------------------------------------------DONATE----------------------------------------*/
+.donate
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url("images/donate_back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top:-1.5%;
+    color: white;
+    
+    
+}
+.donate .donate_container
+{
+    background-color: black;
+    opacity:80%;
+    text-align: center ;
+    margin: 0% 20% 0% 20%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.donate .donate_container h2
+{
+    color: lightpink;
+    line-height: 62px;
+}
+.donate .donate_container h1
+{
+    color: lightpink;
+    line-height: 100px;
+}
+.donate .donate_container p
+{
+    font-size: large;
+    width:97%;
+    text-align: left;
+    padding-left:5%;
+}
+.donate .donate_container .second
+{
+    padding-bottom: 10%;
+}
+.donate .side_btn a
+{
+    text-decoration: none;
+    font-size: 120%;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px double whitesmoke;
+    transition: 0.5s;
+}
+.donate .side_btn a:hover
+{
+    background-color: white;
+    color: black;
+    font-weight:bolder;
+    border: none;
+    border: 4px solid green;
+    transition:0.5s;
+}
+/*--------------------------------------------ACTIVITY---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap'); 
+body {
+  background-image: url(backgraound\ 4.jpg);
+ background-size: none;
+ margin-top: -3.5%;
+
+
+}
+h5 {
+	margin-right: 12%;
+	margin-left:  45%;
+	font-family: Arial, Helvetica, sans-serif;
+  width: 170px;
+  height: 65px;
+    background-color: yellow;
+    opacity: .7;
+    line-height: 25px;
+    text-align: center;
+    font-size: 26px;
+   border-color: white;
+   padding: 10px 10px;
+   font-weight: bold;
+     
+}
+
+.camp{
+  
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+  font-size: 22px;
+  letter-spacing: 1px;
+
+}
+
+.camp_img{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  overflow: hidden;
+  width: 50%;
+
+  text-align: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.acts a{
+	text-align:left;
+	margin-left: 10%;
+  font-size: 150%;
+	color: black;
+  background-color: white;
+  font-weight: bold;
+}
+.acts p{
+	color: white;
+	margin-left:15%;
+  font-size: 150%;
+}
+
+
+
+/*--------------------------------------------NEWS----------------------------------------*/
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+ body{
+     background-color: rgb(114, 113, 189); 
+    }
+    
+ 
+ .container{
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+   padding:25px 20px;
+ }
+ 
+ .container .heading{
+   font-size: 40px;
+   margin-bottom: 20px;
+   color:#334;
+ }
+ 
+ .container .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   gap:20px;
+ }
+ 
+ .container .box-container .box{
+   background-color: #fff;
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.2);
+   display: none;
+ }
+ 
+ .container .box-container .box:nth-child(1),
+ .container .box-container .box:nth-child(2),
+ .container .box-container .box:nth-child(3){
+   display: inline-block;
+ }
+ 
+ .container .box-container .box .image{
+   margin-bottom: 20px;
+   overflow: hidden;
+   height: 250px;
+   border-radius: 5px;
+ }
+ 
+ .container .box-container .box .image img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ 
+ .container .box-container .box:hover .image img{
+   transform: scale(1.1);
+ }
+ 
+ .container .box-container .box .content h3{
+   font-size: 20px;
+   color:#334;
+ }
+ 
+ .container .box-container .box .content p{
+   font-size: 15px;
+   color:#777;
+   line-height: 2;
+   padding:15px 0;
+ }
+ 
+ .container .box-container .box .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   border:1px solid #334;
+   color:#334;
+   font-size: 16px;
+ }
+ 
+ .container .box-container .box .content .btn:hover{
+   background-color: crimson;
+   border-color: crimson;
+   color:#fff;
+ }
+ 
+ .container .box-container .box .content .icons{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   padding-top: 15px;
+   border-top:1px solid #334;
+ }
+ 
+ .container .box-container .box .content .icons span{
+   font-size: 14px;
+   color:#777;
+ }
+ 
+ .container .box-container .box .content .icons span i{
+   color:crimson;
+   padding-right: 5px;
+ }
+ 
+ #load-more{
+   margin-top: 20px;
+   display: inline-block;
+   padding:13px 30px;
+   border:1px solid #334;
+   color:#334;
+   font-size: 16px;
+   background-color: #fff;
+   cursor: pointer;
+ }
+ 
+ #load-more:hover{
+   background-color: crimson;
+   border-color: crimson;
+   color:#fff;
+ }
+ 
+ 
+ @media (max-width:450px){
+ 
+   .container .heading{
+     font-size: 25px;
+   }
+ 
+   .container .box-container{
+     grid-template-columns: 1fr;
+   }
+ 
+   .container .box-container .box .image{
+     height: 200px;
+   }
+ 
+   .container .box-container .box .content p{
+     font-size: 12px;
+   }
+ 
+   .container .box-container .box .content .icons span{
+     font-size: 12px;
+   }
+ 
+ }
+
+/*--------------------------------------------mission & vision ----------------------------------------*/
+ .mis1{
+	
+	background-color: white;
+	margin-right: 10%;
+	margin-top: 8%;
+	text-align: center;
+	font-weight: bold;
+	color: black; 
+	height: 60px;
+	padding: 0px ;
+	font-size: 130%;
+
+}
+.mis2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 140%;
+	color: whitesmoke;
+}
+
+.split {
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+	margin-top: 4%;
+ 
+    margin-left: 1%
+}
+
+.right {
+  
+  margin-left: 25%;
+  margin-right:10%;
+  
+}
+ .qwe {
+ 	text-align: center;
+	margin-top: 15%;
+	margin-right: 20%;
+ 	
+ }
+ .tab {
+  overflow: hidden;
+  border-color:none;  
+}
+.tab button {
+  background-color: inherit;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 34px 20px;
+  transition: 0.3s;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tab button:hover {
+  background-color: peru;
+}
+.tab button.active{
+	background-color: peru;
+}
+.margin p{
+	margin-left: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
